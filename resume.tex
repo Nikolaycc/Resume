@@ -1,0 +1,126 @@
+\documentclass{article}
+
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\usepackage[a4paper, left=1cm, right=1cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{fontawesome5}
+
+\usepackage{fontspec}
+\setmainfont{Hack}
+
+\pagenumbering{gobble}
+\pagecolor[rgb]{0.941, 0.918, 0.894} % rgb(240.0, 234.0, 228.0)
+\color[rgb]{0.502, 0.565, 0.663} % rgb(128, 144, 169)
+
+% statment box
+\definecolor{boxColor}{rgb}{0.502, 0.565, 0.663}
+\definecolor{boxBack}{rgb}{0.941, 0.918, 0.894}
+
+\newtcolorbox{stateEnv}{
+center,
+width=\textwidth,
+halign=center,
+colframe=boxColor,
+coltitle=boxColor,
+coltext=boxColor,
+boxrule=1pt,
+colback=boxBack,
+bottomrule=3pt,
+}
+
+\newtcolorbox{goalEnv}{
+center,
+width=\textwidth,
+halign=center,
+colframe=boxColor,
+coltitle=boxColor,
+coltext=boxColor,
+boxrule=1pt,
+colback=boxBack,
+bottomrule=3pt,
+}
+
+\newtcolorbox{expEnv}{
+center,
+width=\textwidth,
+halign=center,
+colframe=boxColor,
+coltitle=boxColor,
+coltext=boxColor,
+boxrule=1pt,
+colback=boxBack,
+bottomrule=3pt,
+}
+
+\newtcolorbox{skillEnv}{
+center,
+width=\textwidth,
+halign=center,
+colframe=boxColor,
+coltitle=boxColor,
+coltext=boxColor,
+boxrule=1pt,
+colback=boxBack,
+bottomrule=3pt,
+}
+
+\begin{document}
+
+\noindent\textbf{\fontsize{60}{0}\selectfont \raggedright Niko Gogitadze\\ }
+\huge{\raggedright > Software Engineer\\[10pt]}
+\normalsize{\raggedright \faPhone\ +995 555 179 082 | \faEnvelope\ gogitadzeniko0@gmail.com | \faGithub\ github.com/nikolaycc\\[25pt]}
+
+\begin{stateEnv}
+  \vspace{5pt}
+  \textbf{\fontsize{18}{0}\selectfont{\raggedright Statemanet\\[10pt]}}
+  \raggedright\noindent\fontsize{12}{0}\selectfont\setlength{\baselineskip}{1.2em}{Hello! I am a software engineer. I have been involved in this field since 14 years, I have a deep understanding of software engineering paradigms. My knowledge in this field includes in-depth knowledge of Rust, Go, Elixir, Python and C programming languages as well as Memory management, Networking, Threading and Operating systems. I mainly use C and Go. I will constantly follow and study the news. I mostly learn new programming languages and do small projects. Currently I am working on AI (Computer vision and NLP) I also like to discover new things and new interests and these new things help me to be innovative in my projects and give maximum results.}
+  \vspace{5pt}
+\end{stateEnv}
+
+\begin{goalEnv}
+  \vspace{5pt}
+  \textbf{\fontsize{16}{0}\selectfont{\raggedright What is my goal\\[10pt]}}
+  \raggedright\noindent\fontsize{12}{0}\selectfont\setlength{\baselineskip}{1.2em}{The reason for my being in this field is primarily my great interest in all of this and the goal: to say a new word in my profession. In today's situation, I think that every new discovery will make it easier for people to improve their quality of life.\\[10pt]}
+
+  \textbf{\fontsize{16}{0}\selectfont{\raggedright What am i looking for\\[10pt]}}
+  \raggedright\noindent\fontsize{12}{0}\selectfont\setlength{\baselineskip}{1.2em}{A job where I can show my abilities as much as possible and get something new.}
+  \vspace{5pt}
+\end{goalEnv}
+
+\noindent
+\begin{minipage}{0.48\textwidth}
+\begin{expEnv}
+  \vspace{9pt}
+  \textbf{\fontsize{16}{0}\selectfont{\raggedright Professional Experience\\[10pt]}}
+  \textbf{Software Engineer} \hfill \textbf{2022 -- 2023} \\
+  Octarinox, Tbilisi, Georgia
+  \vspace{1em}
+
+  \fontsize{11}{0}\selectfont{\raggedright \textbf{Wiring Diagrams:} Developed and interpreted wiring diagrams to support hardware-software integration.\\[10pt]}
+  \fontsize{11}{0}\selectfont{\raggedright \textbf{Project Planning \& Research:} Conducted comprehensive project planning and research to drive informed decision-making and strategic development.\\[10pt]}
+  \fontsize{10}{0}\selectfont{\raggedright \textbf{Programming Languages:} C/C++, Python\\[10pt]}
+  
+  \vspace{9pt}
+\end{expEnv}
+\end{minipage}
+\hfill
+\begin{minipage}{0.48\textwidth}
+\begin{skillEnv}
+  \vspace{5pt}
+  \textbf{\fontsize{16}{0}\selectfont{\raggedright Skills\\[20pt]}}
+  \begin{itemize}
+  \item \fontsize{10}{0}\selectfont{\raggedright C/C++}
+  \item \fontsize{10}{0}\selectfont{\raggedright Rust}
+  \item \fontsize{10}{0}\selectfont{\raggedright Go}
+  \item \fontsize{10}{0}\selectfont{\raggedright JS/TS}
+  \item \fontsize{10}{0}\selectfont{\raggedright Deep understanding of operating systems, memory management, threading and networking}
+  \item \fontsize{10}{0}\selectfont\raggedright Linux API programming 
+  \item \fontsize{10}{0}\selectfont\raggedright Software Design and Architecture
+  \item \fontsize{10}{0}\selectfont{\raggedright Docker}
+  \item \fontsize{10}{0}\selectfont{\raggedright Git}
+  \end{itemize}
+  \vspace{5pt}
+\end{skillEnv}
+\end{minipage}
+
+\end{document}
